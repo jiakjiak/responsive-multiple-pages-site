@@ -129,3 +129,24 @@ img {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+@media (max-width: 576px) {
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .description {
+    text-align: center;
+  }
+  .yoga,
+  .weather,
+  .yogurt {
+    display: none;
+  }
+  .yoga-app-link,
+  .weather-app-link,
+  .yogurt-app-link {
+    width: 100%;
+    text-align: center;
+  }
+}
