@@ -1,3 +1,131 @@
+:root {
+  --primary-color: #7c2e9d;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
 h1 {
-  color: red;
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  background: linear-gradient(
+    91.1deg,
+    rgb(57, 31, 105) -2.3%,
+    rgb(115, 43, 155) 44.4%,
+    rgb(231, 75, 184) 103.4%
+  );
+}
+
+.navigation-links {
+  display: flex;
+  margin: 40px 0;
+  justify-content: center;
+  background-image: var(--bs-gradient);
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-me-link {
+  background: var(--primary-color);
+  color: white;
+  background-image: var(--bs-gradient);
+}
+
+.contact-me-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.about-me-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-me-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 15px;
+  color: #286ccc;
+}
+
+.footer-link:hover {
+  color: #003d93;
+  text-decoration: underline;
+}
+
+.yoga-app-link,
+.weather-app-link,
+.yogurt-app-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  background-image: var(--bs-gradient);
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  display: in-line;
+  width: auto;
+  margin-left: 12px;
+}
+
+.yoga-app-link:hover,
+.weather-app-link:hover,
+.yogurt-app-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
