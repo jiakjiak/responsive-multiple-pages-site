@@ -4,6 +4,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  margin-bottom: 50px;
+}
+
 h1,
 h2,
 h3 {
@@ -114,7 +118,6 @@ img {
   text-transform: capitalize;
   display: in-line;
   width: auto;
-  margin-left: 12px;
 }
 
 .yoga-app-link:hover,
@@ -131,7 +134,11 @@ img {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
   h2 {
+    font-size: 35px;
     display: flex;
     justify-content: center;
   }
@@ -146,7 +153,8 @@ img {
   .yoga-app-link,
   .weather-app-link,
   .yogurt-app-link {
-    width: 100%;
     text-align: center;
+    display: block;
+    margin: 0 40px !important;
   }
 }
